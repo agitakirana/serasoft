@@ -1,0 +1,39 @@
+body {
+}
+
+.purple-bg {
+	background-color: #b5035b;
+}
+
+.nav-item {
+	font-family: 'Gotham Bold';
+	margin: 5px;
+}
+
+.nav-link {
+	color: #fff;
+	padding: 10px 1rem 0px 1rem;
+}
+
+.nav-link:hover {
+	color: #ddd;
+}
+
+.navbar .flex-1 {
+	flex: 1;
+	flex-basis: 100%;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-top: unset;
+	border-bottom: unset;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 442px) and (orientation: portrait){
+	.mobile_hide {
+		display: none;
+	}
+}

@@ -10,34 +10,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Serasoft stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 
     @yield('stylesheet')
 
-    <style type="text/css">
-      .purple-bg {
-        background-color: #b5035b;
-      }
-
-      .nav-item {
-        font-family: 'Gotham Bold';
-        margin: 5px;
-      }
-
-      .nav-link {
-        color: #fff;
-        padding: 10px 1rem 0px 1rem;
-      }
-
-      .nav-link:hover {
-        color: #ddd;
-      }
-
-      .navbar .flex-1 {
-        flex: 1;
-        flex-basis: 100%;
-      }
-    </style>
   </head>
   <body>
     <div class="container-fluid">
