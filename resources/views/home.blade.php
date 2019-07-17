@@ -1,65 +1,40 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.main')
 
-    <title>Serasoft</title>
+@section('title', 'Home')
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+@section('content')
 
-    <style type="text/css">
-      .purple-bg {
-        background-color: #b5035b;
-      }
+@extends('layout.navigation')
 
-      .nav-item {
-        font-family: 'Gotham Bold';
-        margin: 5px;
-      }
+<div id="serasoft-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#serasoft-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#serasoft-carousel" data-slide-to="1"></li>
+    <li data-target="#serasoft-carousel" data-slide-to="2"></li>
+    <li data-target="#serasoft-carousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/slide1.png" alt="Serasoft 1st Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/slide2.png" alt="Serasoft 2nd Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/slide3.png" alt="Serasoft 3rd Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/slide4.png" alt="Serasoft 4th Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#serasoft-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#serasoft-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-      .nav-link {
-        color: #fff;
-        padding: 10px 1rem 0px 1rem;
-      }
-
-      .nav-link:hover {
-        color: #ddd;
-      }
-
-      .navbar .flex-1 {
-        flex: 1;
-        flex-basis: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md main-nav purple-bg">
-
-      <div class="collapse navbar-collapse justify-content-center flex-1">
-        <ul class="nav navbar-nav w-100">
-          <li class="nav-item"><a href="#">Shop</a></li>
-          <li class="nav-item"><a href="#">Diagnose Your Hair</a></li>
-          <li class="nav-item"><a href="#">Virtual Artist</a></li>
-        </ul>
-      </div>
-
-      <button class="navbar-toggler" type="button" role="navigation" data-toggle="collapse" data-target=".navbar-collapse"><i class="fas fa-bars"></i></button>
-      <div class="order-first order-md-0 d-flex justify-content-center navbar_logo">
-        <a class="navbar-brand mx-0" href="#"><img id="logo" src="images/logo.png"></a>
-      </div>
-
-      <div class="collapse navbar-collapse justify-content-center flex-1">
-        <ul class="nav navbar-nav w-100">
-          <li class="nav-item"><a href="#">Get The Look</a></li>
-          <li class="nav-item"><a href="#">#SayaSudahSerasoft</a></li>
-          <li class="nav-item"><a href="#">Explore More</a></li>
-        </ul>
-      </div>
-
-    </nav>
-  </body>
-</html>
+@endsection
