@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', function () { return view('home'); })->name('home');
+Route::get('/shop', function() { return view('shop'); })->name('shop');
+Route::get('/get-the-look', function() { return view('get-the-look'); })->name('get-the-look');
+Route::get('/explore-more', function() { return view('explore-more'); })->name('explore-more');

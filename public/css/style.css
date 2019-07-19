@@ -1,17 +1,23 @@
 body {
+	background: #fff;
+	color: #fff;
+}
+
+.container-fluid {
+	padding: 0;
 }
 
 .purple-bg {
 	background-color: #b5035b;
 }
 
-.nav-item {
-	font-family: 'Gotham Bold';
+.nav-item a {
+	font-family: 'Century Gothic';
+	color: #fff;
 	margin: 5px;
 }
 
 .nav-link {
-	color: #fff;
 	padding: 10px 1rem 0px 1rem;
 }
 
@@ -19,9 +25,26 @@ body {
 	color: #ddd;
 }
 
+.navbar {
+	z-index: 21;
+}
+
 .navbar .flex-1 {
 	flex: 1;
 	flex-basis: 100%;
+}
+
+.navbar-toggler {
+	color: #fff;
+}
+
+.mobile-nav {
+	display: none;
+	z-index: 10;
+}
+
+.hidden {
+	display: none;
 }
 
 .carousel-indicators li {
@@ -32,8 +55,84 @@ body {
 	border-radius: 10px;
 }
 
+.bottom-carousel {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(181,3,91,.7);
+}
+
+.shop_content {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #000;
+	background-image: url('../images/shop-bg.jpg');
+	background-position: bottom;
+	background-size: contain;
+}
+
+.shop_desc {
+	background-image: url('../images/shop-bgwhite.png');
+	background-position: top center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+
+.shop_desc .products {
+	padding: 25px;
+}
+
+.shop_desc .products h3 {
+	font-family: 'Arial Bold';
+	font-size: 24px;
+}
+
+.shop_desc .products p {
+	font-family: 'Gotham Book Regular';
+	font-size: 12px;
+}
+
+#serasoft-shop-carousel {
+	background-image: url('../images/carousel-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.shop_now {
+	width: 100%;
+	min-height: 40px;
+	position: fixed;
+	bottom: 0;
+	background-color: #a10351;
+	text-align: center;
+}
+
 @media screen and (max-width: 442px) and (orientation: portrait){
 	.mobile_hide {
 		display: none;
+	}
+
+	.mobile-nav {
+		display: flex;
+		background: rgba(0,0,0,.8);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		z-index: 20;
+	}
+
+	.mobile-nav .nav-item {
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.nav-item {
+		display: inline-block;
+		width: 100%;
 	}
 }
