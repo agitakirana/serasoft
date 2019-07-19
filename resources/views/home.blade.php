@@ -38,4 +38,8 @@
   <div class="bottom-carousel purple-bg"></div>
 </div>
 
+<div class="home_footer">
+  <img src="../images/home-footer.jpg">
+</div>
+
 @endsection
