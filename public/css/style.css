@@ -121,7 +121,7 @@ body {
 }
 
 .explore .carousel .carousel-indicators {
-	margin: 0 0 1.5rem 0;
+	margin: 0 5px 1.5rem 5px;
 }
 
 .explore .carousel .carousel-indicators li {
@@ -129,6 +129,10 @@ body {
 	height: 140px;
 	text-indent: unset;
 	background-color: unset;
+	background-image: url('../images/explore-more-product-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 0;
 }
 
 .explore .carousel .carousel-indicators li img {
@@ -138,6 +142,14 @@ body {
 
 #serasoft-explore-carousel {
 	min-height: 100%;
+}
+
+.get-the-look .article {
+	margin: 5px 10px;
+}
+
+.get-the-look .article img {
+	width: 100%;
 }
 
 @media screen and (max-width: 442px) and (orientation: portrait){

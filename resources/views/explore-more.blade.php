@@ -7,6 +7,7 @@
 @extends('layout.navigation')
 
 <div class="explore">
+	<
 	<div id="serasoft-explore-carousel" class="carousel slide">
 		<ol class="carousel-indicators">
 			<li data-target="#serasoft-explore-carousel" data-slide-to="0" class="active"><img src="images/product.png"></li>
