@@ -65,7 +65,12 @@ input::placeholder, textarea::placeholder {
 
 .mobile-nav {
 	display: none;
-	z-index: 10;
+	opacity: 0;
+	transition:opacity 0.3s linear;
+	-webkit-transition:opacity 0.3s linear; 
+	-moz-transition:opacity 0.3s linear; 
+	-o-transition:opacity 0.3s linear;
+	z-index: 20;
 }
 
 .hidden {
@@ -102,32 +107,57 @@ input::placeholder, textarea::placeholder {
 	background-size: contain;
 }
 
+.shop_content .carousel .carousel-inner .carousel-item img {
+	height: 400px;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
 .shop_desc {
-	background-image: url('../images/shop-bgwhite.png');
-	background-position: top center;
-	background-size: contain;
-	background-repeat: no-repeat;
 	min-height: 100px;
+	margin-top: -180px;
 }
 
-.shop_desc .products {
+.shop_desc .carousel-caption:not(#caption-0) {
+    display: none;
+}
+
+.shop_desc .carousel-caption {
 	padding: 25px;
+	position: relative;
+	bottom: unset;
+	left: unset;
+	right: unset;
 }
 
-.shop_desc .products h3 {
+.shop_desc .carousel-caption h3 {
 	font-family: 'Arial Bold';
 	font-size: 24px;
+	text-align: left;
 }
 
-.shop_desc .products p {
+.shop_desc .carousel-caption p {
 	font-family: 'Gotham Book Regular';
 	font-size: 12px;
+	text-align: left;
+}
+
+.shop_white {
+	z-index: 1;
+	width: 100%;
+	height: 200px;
+	background-image: url('../images/shop-bgwhite.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -4px;
 }
 
 #serasoft-shop-carousel {
 	background-image: url('../images/carousel-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: bottom center;
 }
 
 .shop_now {
@@ -187,6 +217,27 @@ input::placeholder, textarea::placeholder {
 	margin: auto;
 }
 
+.explore_desc {
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.explore_desc .carousel-caption {
+	position: relative;
+	left: unset;
+	right: unset;
+	bottom: unset;
+}
+
+.explore_desc .carousel-caption h3 {
+	font-family: "Ultra Fresh";
+}
+
+.explore_desc .carousel-caption:not(#caption-0) {
+    display: none;
+}
+
 .get-the-look .article {
 	margin: 5px 10px;
 }
@@ -207,17 +258,21 @@ input::placeholder, textarea::placeholder {
 
 .starrating > label
 {
-  color: #999; /* Start color when not clicked */
+  color: #999;
 }
 
 .starrating > input:checked ~ label
-{ color: #ffca08 ; } /* Set yellow color when star checked */
+{ color: #be1870 ; }
 
 .starrating > input:hover ~ label
-{ color: #ffca08 ;  } /* Set yellow color when star hover */
+{ color: #be1870 ;  } 
 
 .risingstar {
 	width: 40%;
+}
+
+.ultra-fresh {
+	font-family: "Ultra Fresh";
 }
 
 @media screen and (max-width: 442px) and (orientation: portrait){
@@ -226,6 +281,7 @@ input::placeholder, textarea::placeholder {
 	}
 
 	.mobile-nav {
+		opacity: 0;
 		display: flex;
 		background: rgba(0,0,0,.8);
 		backdrop-filter: blur(20px);
@@ -234,7 +290,28 @@ input::placeholder, textarea::placeholder {
 		height: 100%;
 		position: absolute;
 		top: 0;
-		z-index: 20;
+	}
+
+	.mobile-nav.collapse.show {
+		opacity:1;
+		transition:opacity 0.1s linear; 
+		-webkit-transition:opacity 0.1s linear; 
+		-moz-transition:opacity 0.1s linear; 
+		-o-transition:opacity 0.1s linear;
+	}
+
+	.mobile-nav.collapse{
+		transition:opacity 0.1s linear; 
+		-webkit-transition:opacity 0.1s linear; 
+		-moz-transition:opacity 0.1s linear; 
+		-o-transition:opacity 0.1s linear;
+	}
+
+	.collapsing {
+		transition:opacity 0.1s linear; 
+		-webkit-transition:opacity 0.1s linear; 
+		-moz-transition:opacity 0.1s linear; 
+		-o-transition:opacity 0.1s linear;
 	}
 
 	.mobile-nav .nav-item {

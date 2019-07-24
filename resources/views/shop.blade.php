@@ -15,22 +15,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="images/serasoft-dandruff-treatment.png">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Serasoft Dandruft Treatment 170ml</h5>
-        </div>
+        <img class="d-block" src="images/serasoft-dandruff-treatment.png">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="images/serasoft-hair-fall-treatment.png">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Serasoft Hair Fall Treatment 170ml</h5>
-        </div>
+        <img class="d-block" src="images/serasoft-hair-fall-treatment.png">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="images/serasoft-shiny-black.png">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Serasoft Shiny Black 170ml</h5>
-        </div>
+        <img class="d-block" src="images/serasoft-shiny-black.png">
       </div>
     </div>
     <a class="carousel-control-prev" href="#serasoft-shop-carousel" role="button" data-slide="prev">
@@ -43,10 +34,20 @@
     </a>
   </div>
 
-  <div class="shop_desc">
-    <div class="products">
+  <div class="shop_white"></div>
+
+  <div id="slider_captions" class="shop_desc">
+    <div id="caption-0" class="carousel-caption products">
       <h3>Serasoft Dandruff<br>Treatment 170ml</h3>
-      <p>Serasoft Dandruff Treatment is designed to prevent flaking, itching and irritation associated with dandruff. Makes your hair lively and moves with you.</p>
+      <p>Serasoft Dandruff Treatment dirancang untuk mengatasi dan mencegah kulit kepala mengelupas, gatal-gatal dan iritasi yang disebabkan oleh ketombe. Membuat rambutmu sehat dan indah seperti yang kamu inginkan.</p>
+    </div>
+    <div id="caption-1" class="carousel-caption products">
+      <h3>Serasoft Hairfall <br>Treatment 170ml</h3>
+      <p>Serasoft Hair Fall Treatment dirancang bukan hanya untuk mengatasi rambut rontok, tapi juga memberikan rambutmu kilau alami yang segar. Kamu jadi lebih percaya diri memamerkan rambutmu yang indah.</p>
+    </div>
+    <div id="caption-2" class="carousel-caption products">
+      <h3>Serasoft Shiny Black 170ml</h3>
+      <p>Serasoft Shiny Black memberikan rambut hitammu kilau alami yang menarik dan indah yang membuatmu lebih percaya diri menghadapi apapun.</p>
     </div>
   </div>
 
@@ -82,4 +83,17 @@
 
 </div>
 
+@endsection
+
+@section('script')
+<script type="text/javascript">
+$(document).ready(function () {
+  $("#serasoft-shop-carousel").on('slide.bs.carousel', function(evt) {
+    var step = $(evt.relatedTarget).index();
+    $('#slider_captions .carousel-caption:not(#caption-'+step+')').fadeOut('fast', function() {
+      $('#caption-'+step).fadeIn();
+    });
+  });
+});
+</script>
 @endsection

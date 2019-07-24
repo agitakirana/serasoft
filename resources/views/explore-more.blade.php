@@ -34,6 +34,46 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
+
+	<!-- Explore More Description -->
+
+	<div id="slider_captions" class="explore_desc">
+		<div id="caption-0" class="carousel-caption">
+			<h3>DGA Serum Memberikan Perawatan Rambut Secara Terus Menerus</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div id="caption-1" class="carousel-caption">
+			<h3>Menyehatkan rambut dari dalam dan melindunginya dari kerusakan</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div id="caption-2" class="carousel-caption">
+			<img src="images/zpt.png">
+			<h3>ZPT</h3>
+		</div>
+		<div id="caption-3" class="carousel-caption">
+			<img src="images/sophora-root.png">
+			<h3>Sophora Root</h3>
+		</div>
+		<div id="caption-4" class="carousel-caption">
+			<img src="images/black-sesame.png">
+			<h3>Black Sesame</h3>
+		</div>
+	</div>
 </div>
 
+
+
+@endsection
+
+@section('script')
+<script type="text/javascript">
+$(document).ready(function () {
+	$("#serasoft-explore-carousel").on('slide.bs.carousel', function(evt) {
+		var step = $(evt.relatedTarget).index();
+	  $('#slider_captions .carousel-caption:not(#caption-'+step+')').fadeOut('fast', function() {
+	   	$('#caption-'+step).fadeIn();
+		});
+	});
+});
+</script>
 @endsection
