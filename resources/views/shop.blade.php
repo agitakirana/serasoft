@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="images/product.png">
+        <img class="d-block w-100" src="images/serasoft-shiny-black.png">
         <div class="carousel-caption d-none d-md-block">
           <h5>Serasoft Shiny Black 170ml</h5>
         </div>
