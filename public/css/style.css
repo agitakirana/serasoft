@@ -1,5 +1,30 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
 body {
 	background: #fff;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+input, textarea, button {
+	border-radius: 0!important;
+}
+
+input, textarea {
+	background-color: rgba(0,0,0,0) !important;
+	border-color: #b5035b !important;
+	color: #fff;
+}
+
+input::placeholder, textarea::placeholder {
+	color: #fff !important;
+}
+
+.button-purple {
+	background-color: #b5035b;
 	color: #fff;
 }
 
@@ -72,6 +97,7 @@ body {
 	min-height: 100vh;
 	background-color: #000;
 	background-image: url('../images/shop-bg.jpg');
+	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: contain;
 }
@@ -81,7 +107,7 @@ body {
 	background-position: top center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	min-height: 400px;
+	min-height: 100px;
 }
 
 .shop_desc .products {
@@ -107,10 +133,16 @@ body {
 .shop_now {
 	width: 100%;
 	min-height: 40px;
+	padding: 10px;
 	position: fixed;
 	bottom: 0;
 	background-color: #a10351;
 	text-align: center;
+	z-index: 16;
+}
+
+.review {
+	padding: 10px 10px 60px 10px;
 }
 
 .explore {
@@ -140,8 +172,19 @@ body {
 	height: 100%;
 }
 
+/**
 #serasoft-explore-carousel {
 	min-height: 100%;
+}
+**/
+
+.explore .carousel .carousel-inner .carousel-item {
+	justify-content: center;
+}
+
+.explore .carousel .carousel-inner .carousel-item img {
+	max-height: 500px;
+	margin: auto;
 }
 
 .get-the-look .article {
@@ -150,6 +193,31 @@ body {
 
 .get-the-look .article img {
 	width: 100%;
+}
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 24px;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating > label
+{
+  color: #999; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
+
+.risingstar {
+	width: 40%;
 }
 
 @media screen and (max-width: 442px) and (orientation: portrait){

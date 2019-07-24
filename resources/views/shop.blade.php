@@ -50,8 +50,34 @@
     </div>
   </div>
 
+  <div class="review">
+    <form action="#" method="POST">
+      @method('PUT')
+      <div class="form-group">
+        <input type="text" class="form-control" name="nama" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="E-Mail">
+      </div>
+      <div class="form-group starrating risingstar d-flex justify-content-center flex-row-reverse">
+        <!-- -->
+        <input type="radio" id="star5" name="rating"><label for="star5" title="5 star"></label>
+        <input type="radio" id="star4" name="rating"><label for="star4" title="4 star"></label>
+        <input type="radio" id="star3" name="rating"><label for="star3" title="3 star"></label>
+        <input type="radio" id="star2" name="rating"><label for="star2" title="2 star"></label>
+        <input type="radio" id="star1" name="rating"><label for="star1" title="1 star"></label>
+      </div>
+      <div class="form-group">
+        <textarea name="review" class="form-control" rows="6" placeholder="Write a Review"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn form-control button-purple">Post Review</button>
+      </div>
+    </form>
+  </div>
+
   <div class="shop_now">
-    <a href="#"> Shop Now!</a>
+    <a href="https://www.blibli.com/brand/serasoft"> Shop Now! <img src="images/blibli.png"></a>
   </div>
 
 </div>
