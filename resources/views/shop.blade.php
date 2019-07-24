@@ -12,38 +12,24 @@
       <li data-target="#serasoft-shop-carousel" data-slide-to="0" class="active"></li>
       <li data-target="#serasoft-shop-carousel" data-slide-to="1"></li>
       <li data-target="#serasoft-shop-carousel" data-slide-to="2"></li>
-      <li data-target="#serasoft-shop-carousel" data-slide-to="3"></li>
-      <li data-target="#serasoft-shop-carousel" data-slide-to="4"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="images/product.png">
+        <img class="d-block w-100" src="images/serasoft-dandruff-treatment.png">
         <div class="carousel-caption d-none d-md-block">
           <h5>Serasoft Dandruft Treatment 170ml</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="images/product.png">
+        <img class="d-block w-100" src="images/serasoft-hair-fall-treatment.png">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Serasoft Dandruft Treatment 170ml</h5>
+          <h5>Serasoft Hair Fall Treatment 170ml</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="images/product.png">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Serasoft Dandruft Treatment 170ml</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/product.png">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Serasoft Dandruft Treatment 170ml</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/product.png">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Serasoft Dandruft Treatment 170ml</h5>
+          <h5>Serasoft Shiny Black 170ml</h5>
         </div>
       </div>
     </div>
