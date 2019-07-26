@@ -179,6 +179,7 @@ input::placeholder, textarea::placeholder, .form-control, .form-control:focus, i
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100%;
+	position: relative;
 }
 
 .explore .carousel .carousel-indicators {
