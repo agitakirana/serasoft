@@ -18,12 +18,8 @@ input, textarea {
 	border-color: #b5035b !important;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder, textarea::placeholder, .form-control, .form-control:focus, input:focus, textarea:focus {
 	color: #fff !important;
-}
-
-.form-control, .form-control:focus {
-	color: #fff;
 }
 
 .button-purple {
