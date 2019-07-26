@@ -238,6 +238,11 @@ input::placeholder, textarea::placeholder, .form-control, .form-control:focus, i
     display: none;
 }
 
+.caption-socmed .fab {
+	font-size: 25px;
+	margin: 5px;
+}
+
 .get-the-look .article {
 	margin: 5px 10px;
 }
