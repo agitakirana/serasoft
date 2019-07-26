@@ -16,11 +16,14 @@ input, textarea, button {
 input, textarea {
 	background-color: rgba(0,0,0,0) !important;
 	border-color: #b5035b !important;
-	color: #fff;
 }
 
 input::placeholder, textarea::placeholder {
 	color: #fff !important;
+}
+
+.form-control, .form-control:focus {
+	color: #fff;
 }
 
 .button-purple {
