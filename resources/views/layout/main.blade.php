@@ -37,7 +37,7 @@
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Serasoft stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?v={{ mt_rand(1000000000000, 9999999999999) }}" rel="stylesheet">
 
     @yield('stylesheet')
 

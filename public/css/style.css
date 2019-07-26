@@ -238,7 +238,7 @@ input::placeholder, textarea::placeholder, .form-control, .form-control:focus, i
     display: none;
 }
 
-.caption-socmed .fab {
+.caption-socmed i.fab {
 	font-size: 25px;
 	margin: 5px;
 }

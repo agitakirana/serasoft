@@ -4,7 +4,7 @@
 
 @section('content')
 
-@extends('layout.navigation')
+@include('layout.navigation')
 
 <div class="explore">
 	<div id="serasoft-explore-carousel" class="carousel slide">
