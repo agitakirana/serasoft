@@ -41,24 +41,24 @@
 		<div id="caption-0" class="carousel-caption">
 			<h3>DGA Serum Memberikan Perawatan Rambut Secara Terus Menerus</h3>
 			<p>Rambut terawat dan terlindungi sepanjang hari dengan DGA Serum yang bekerja dari akar hingga ke ujung rambut.</p>
-			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><i class="fab fa-twitter"></i><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
+			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
 		</div>
 		<div id="caption-1" class="carousel-caption">
 			<h3>Menyehatkan rambut dari dalam dan melindunginya dari kerusakan</h3>
 			<p>Dengan DGA Serum, rambut terlindungi dari polusi dan debu. Rambut jadi halus dan terlihat lebih sehat serta berkilau lebih lama.</p>
-			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><i class="fab fa-twitter"></i><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
+			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
 		</div>
 		<div id="caption-2" class="carousel-caption">
 			<img src="images/zpt.png">
 			<h3>ZPT</h3>
 			<p>Menghilangkan ketombe dan mencegah kulit kepala kering.</p>
-			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><i class="fab fa-twitter"></i><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
+			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
 		</div>
 		<div id="caption-3" class="carousel-caption">
 			<img src="images/sophora-root.png">
 			<h3>Sophora Root</h3>
 			<p>Memperkuat rambut dan membantu mengurangi kerontokan.</p>
-			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><i class="fab fa-twitter"></i><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
+			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
 		</div>
 		<div id="caption-4" class="carousel-caption">
 			<img src="images/black-sesame.png">
