@@ -39,7 +39,7 @@
 </div>
 
 <div class="home_footer">
-  <img src="../images/home-footer.jpg">
+  <a href="{{ URL::Route('shop') }}"><img src="../images/home-footer.jpg"></a>
 </div>
 
 @endsection

@@ -40,11 +40,11 @@
 	<div id="slider_captions" class="explore_desc">
 		<div id="caption-0" class="carousel-caption">
 			<h3>DGA Serum Memberikan Perawatan Rambut Secara Terus Menerus</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p></p>
 		</div>
 		<div id="caption-1" class="carousel-caption">
 			<h3>Menyehatkan rambut dari dalam dan melindunginya dari kerusakan</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p></p>
 		</div>
 		<div id="caption-2" class="carousel-caption">
 			<img src="images/zpt.png">
