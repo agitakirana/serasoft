@@ -44,4 +44,8 @@ return [
         ],
     ],
 
+    'instagram' => [
+        'access-token' => '8f8ea0eb9f65409882716bb8f7eebf78',
+    ],
+
 ];

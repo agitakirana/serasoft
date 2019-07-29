@@ -22,6 +22,10 @@ input::placeholder, textarea::placeholder, .form-control, .form-control:focus, i
 	color: #fff !important;
 }
 
+#logo {
+	max-width: 150px;
+}
+
 .button-purple {
 	background-color: #b5035b;
 	color: #fff;
