@@ -284,6 +284,15 @@ input::placeholder, textarea::placeholder, .form-control, .form-control:focus, i
 	font-family: "Ultra Fresh";
 }
 
+.sss {
+	padding: 10px;
+}
+
+.sss iframe {
+	width: 640px;
+	height: 480px;
+}
+
 @media screen and (max-width: 442px) and (orientation: portrait){
 	.mobile_hide {
 		display: none;
@@ -336,5 +345,10 @@ input::placeholder, textarea::placeholder, .form-control, .form-control:focus, i
 	.explore_desc {
 		height: 50vh;
 		overflow: hidden;
+	}
+
+	.sss iframe {
+		width: 400px;
+		height: 320px;
 	}
 }

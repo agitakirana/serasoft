@@ -32,7 +32,7 @@
     <li class="nav-item"><a href="#">DIAGNOSE YOUR HAIR</a></li>
     <li class="nav-item"><a href="#">VIRTUAL ARTIST</a></li>
     <li class="nav-item"><a href="{{ URL::Route('get-the-look') }}">GET THE LOOK</a></li>
-    <li class="nav-item"><a href="#">#SAYASUDAHSERASOFT</a></li>
+    <li class="nav-item"><a href="{{ URL::Route('saya-sudah-serasoft') }}">#SAYASUDAHSERASOFT</a></li>
     <li class="nav-item"><a href="{{ URL::Route('explore-more') }}">EXPLORE MORE</a></li>
   </ul>
 </div>

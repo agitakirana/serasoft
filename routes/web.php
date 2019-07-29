@@ -18,3 +18,4 @@ Route::get('/explore-more', function() { return view('explore-more'); })->name('
 Route::get('/hair-myths', function() { return view('hair-myths'); })->name('hair-myths');
 Route::get('/perfect-curls', function() { return view('perfect-curls'); })->name('perfect-curls');
 Route::get('/everyday-bun', function() { return view('everyday-bun'); })->name('everyday-bun');
+Route::get('/saya-sudah-serasoft', function() { return view('saya-sudah-serasoft'); })->name('saya-sudah-serasoft');
