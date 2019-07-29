@@ -64,7 +64,7 @@
 			<img src="images/black-sesame.png">
 			<h3>Black Sesame</h3>
 			<p>Menjadikan rambut tampak hitam alami dan menyempurnakan kilau rambut.</p>
-			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><i class="fab fa-twitter"></i><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
+			<div class="caption-socmed"><a href="https://www.instagram.com/serasoft.id"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/Serasoft.ID"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/channel/UC_vviPNDAVAfNkadX_wTZtg"><i class="fab fa-youtube"></i></a></div>
 		</div>
 	</div>
 </div>
