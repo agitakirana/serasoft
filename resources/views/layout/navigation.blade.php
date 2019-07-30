@@ -29,7 +29,7 @@
 <div class="mobile-nav collapse navbar-collapse justify-content-center flex-1">
   <ul class="navbar nav w-100">
     <li class="nav-item"><a href="{{ URL::Route('shop') }}">SHOP</a></li>
-    <li class="nav-item"><a href="#">DIAGNOSE YOUR HAIR</a></li>
+    <li class="nav-item"><a href="{{ URL::Route('diagnose-hair') }}">DIAGNOSE YOUR HAIR</a></li>
     <li class="nav-item"><a href="#">VIRTUAL ARTIST</a></li>
     <li class="nav-item"><a href="{{ URL::Route('get-the-look') }}">GET THE LOOK</a></li>
     <li class="nav-item"><a href="{{ URL::Route('saya-sudah-serasoft') }}">#SAYASUDAHSERASOFT</a></li>
