@@ -10,7 +10,7 @@ a {
 }
 
 input, textarea, button {
-	border-radius: 0!important;
+	/** border-radius: 0!important; **/
 }
 
 input, textarea {
@@ -329,6 +329,31 @@ input::placeholder, textarea::placeholder, .form-control, .form-control:focus, i
 
 .btn-diagnose-nav #nextBtn:hover {
 	opacity: .7;
+}
+
+.diagnose-cover {
+	min-width: 100%;
+	min-height: calc(100vh - 80px);
+	background-image: url('../images/diagnose-cover.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.diagnose-cover .bottom {
+	padding: 10px;
+	position: absolute;
+	bottom: 40px;
+}
+
+.btn-diagnose-cover {
+	background-color: #b5035b;
+	color: #fff;
+}
+
+.btn-diagnose-cover:hover {
+	background-color: #fff;
+	color: #b5035b;
 }
 
 @media screen and (max-width: 442px) and (orientation: portrait){

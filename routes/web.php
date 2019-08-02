@@ -19,4 +19,6 @@ Route::get('/hair-myths', function() { return view('hair-myths'); })->name('hair
 Route::get('/perfect-curls', function() { return view('perfect-curls'); })->name('perfect-curls');
 Route::get('/everyday-bun', function() { return view('everyday-bun'); })->name('everyday-bun');
 Route::get('/saya-sudah-serasoft', function() { return view('saya-sudah-serasoft'); })->name('saya-sudah-serasoft');
+Route::get('/diagnose-cover', function() { return view('diagnose-cover'); })->name('diagnose-cover');
 Route::get('/diagnose-hair', function() { return view('diagnose-hair'); })->name('diagnose-hair');
+Route::get('/diagnose-result', function() { return view('diagnose-result'); })->name('diagnose-result');

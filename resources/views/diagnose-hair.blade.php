@@ -35,7 +35,7 @@
 @include('layout.navigation')
 
 <div class="container container-diagnose" data-toggle="buttons">
-	<form id="dhForm" method="post" action="">
+	<form id="dhForm" method="post" action="{{ URL::Route('diagnose-result') }}">
 
 		<!-- Step 1 -->
 		<div class="tab">
@@ -52,6 +52,92 @@
 				</label>
 				<label class="btn btn-diagnose">
 					<input type="radio" name="age" value="0" autocomplete="off"> 41 and Above
+				</label>
+			</div>
+		</div>
+
+		<!-- Step 2 -->
+		<div class="tab">
+			<h3 class="title-diagnose">I am an ...</h3>
+			<div class="btn-group-toggle text-center">
+				<label class="btn btn-diagnose">
+					<input type="radio" name="iam" value="0" autocomplete="off"> Extrovert
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="iam" value="0" autocomplete="off"> Introvert
+				</label>
+			</div>
+		</div>
+
+		<!-- Step 3 -->
+		<div class="tab">
+			<h3 class="title-diagnose">I think i am ...</h3>
+			<div class="btn-group-toggle text-center">
+				<label class="btn btn-diagnose">
+					<input type="radio" name="ithink" value="0" autocomplete="off"> Unconfident
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="ithink" value="0" autocomplete="off"> Confident
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="ithink" value="0" autocomplete="off"> Soso
+				</label>
+			</div>
+		</div>
+
+		<!-- Step 4 -->
+		<div class="tab">
+			<h3 class="title-diagnose">What is your fashion style?</h3>
+			<div class="btn-group-toggle text-center">
+				<label class="btn btn-diagnose">
+					<input type="radio" name="fashion" value="0" autocomplete="off"> Casual
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="fashion" value="0" autocomplete="off"> Formal
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="fashion" value="0" autocomplete="off"> Edgy
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="fashion" value="0" autocomplete="off"> Elegant
+				</label>
+			</div>
+		</div>
+
+		<!-- Step 5 -->
+		<div class="tab">
+			<h3 class="title-diagnose">I love ...</h3>
+			<div class="btn-group-toggle text-center">
+				<label class="btn btn-diagnose">
+					<input type="radio" name="love" value="0" autocomplete="off"> Travelling
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="love" value="0" autocomplete="off"> Food
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="love" value="0" autocomplete="off"> Partying
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="love" value="0" autocomplete="off"> Excercising
+				</label>
+			</div>
+		</div>
+
+		<!-- Step 6 -->
+		<div class="tab">
+			<h3 class="title-diagnose">What's your hair type?</h3>
+			<div class="btn-group-toggle text-center">
+				<label class="btn btn-diagnose">
+					<input type="radio" name="typehair" value="0" autocomplete="off"> Straight
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="typehair" value="0" autocomplete="off"> Wavy
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="typehair" value="0" autocomplete="off"> Coiled
+				</label>
+				<label class="btn btn-diagnose">
+					<input type="radio" name="typehair" value="0" autocomplete="off"> Curly
 				</label>
 			</div>
 		</div>
@@ -152,7 +238,7 @@
 					<input type="radio" name="washhair" value="0" autocomplete="off"> 1-2 times
 				</label>
 				<label class="btn btn-diagnose">
-					<input type="radio" name="washhair" value="0" autocomplete="off"> 2-3 times
+					<input type="radio" name="washhair" value="0" autocomplete="off"> 3-5 times
 				</label>
 				<label class="btn btn-diagnose">
 					<input type="radio" name="washhair" value="0" autocomplete="off"> 6 or more times
@@ -233,9 +319,12 @@
 			</div>
 		</div>
 
-		
-
 		<div style="text-align:center;margin-top:40px;">
+    	<span class="step"></span>
+    	<span class="step"></span>
+    	<span class="step"></span>
+    	<span class="step"></span>
+    	<span class="step"></span>
     	<span class="step"></span>
     	<span class="step"></span>
     	<span class="step"></span>
