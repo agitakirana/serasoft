@@ -36,6 +36,7 @@
 
 <div class="container container-diagnose" data-toggle="buttons">
 	<form id="dhForm" method="post" action="{{ URL::Route('diagnose-result') }}">
+		@csrf
 
 		<!-- Step 1 -->
 		<div class="tab">
